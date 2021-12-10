@@ -46,5 +46,5 @@ GO
     ON c.object_id = t.object_id
   JOIN sys.pdw_table_distribution_properties p
     ON p.object_id = t.object_id
-  WHERE c.[state] = 'NotReady'
-    AND p.[distribution_policy_desc] = 'REPLICATE'
+ -- WHERE c.[state] = 'NotReady'
+   -- AND p.[distribution_policy_desc] = 'REPLICATE'
