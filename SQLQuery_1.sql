@@ -1,3 +1,6 @@
+
+
+
 --set statistics time ON
 
 SELECT TOP (1000) [ProductKey]
